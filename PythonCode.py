@@ -3,7 +3,7 @@ import numpy as np
 
 #----------------------------------------------------------------------------------
 # Train Data
-data = pd.read_csv('C:/Users/Oottu/OneDrive/Desktop/Krishna/University of Glasgow/04. Comp Social Intelligence/Assessed Exercise/Assessment 2/training-part-2.csv')
+data = pd.read_csv('training-part-2.csv')
 
 # The two classes in the dataset are smile and frown.
 # Assuming smile as C1 and frown as C2.
@@ -66,7 +66,7 @@ for i in range (0,len(class2)):
 
 #---------------------------------------------------------------------
 #Test file
-test_data = pd.read_csv('C:/Users/Oottu/OneDrive/Desktop/Krishna/University of Glasgow/04. Comp Social Intelligence/Assessed Exercise/Assessment 2/test-part-2.csv')
+test_data = pd.read_csv('test-part-2.csv')
 
 # Splitting the dataset in to two small dataframe
 samples = np.array(test_data.iloc[:,:n])
